@@ -2,8 +2,8 @@ let rules = {};
 let courses = {};
 
 window.onload = async function () {
-  rules = await fetch("/rules").then((res) => res.json());
-  courses = await fetch("/courses").then((res) => res.json());
+  rules = await fetch("rules.json").then((res) => res.json());
+  courses = await fetch("courses.json").then((res) => res.json());
 
   const selector = document.getElementById("majorSelector");
   
