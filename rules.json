@@ -1,0 +1,461 @@
+[
+  {
+    "major": "Computer Science",
+    "credits": 128,
+    "ruleset": [
+      {
+        "category": "HASS Core",
+        "credits": 24,
+        "rules": [
+          {
+            "type": "universal",
+            "prefixes": [
+              "ARTS",
+              "COGS",
+              "COMM",
+              "ECON",
+              "GSAS",
+              "IHSS",
+              "INQR",
+              "LANG",
+              "LITR",
+              "PHIL",
+              "PSYC",
+              "STSO",
+              "WRIT"
+            ]
+          },
+          {
+            "type": "existential",
+            "attribute": "HASS Inquiry"
+          },
+          {
+            "type": "existential",
+            "attribute": "Communication Intensive"
+          },
+          {
+            "type": "existential",
+            "level": 4000
+          }
+        ]
+      },
+      {
+        "category": "Math/Science Core",
+        "credits": 24,
+        "rules": [
+          {
+            "type": "universal",
+            "prefixes": [
+              "ASTR",
+              "BCBP",
+              "BIOL",
+              "CHEM",
+              "ERTH",
+              "ISCI",
+              "MATH",
+              "MATP",
+              "PHYS"
+            ]
+          },
+          {
+            "type": "existential",
+            "courses": [
+              {
+                "prefix": "MATH",
+                "code": 1010
+              }
+            ]
+          },
+          {
+            "type": "existential",
+            "courses": [
+              {
+                "prefix": "MATH",
+                "code": 1020
+              }
+            ]
+          },
+          {
+            "type": "existential",
+            "courses": [
+              {
+                "prefix": "MATH",
+                "code": 2010
+              }
+            ]
+          },
+          {
+            "type": "existential",
+            "courses": [
+              {
+                "prefix": "PHYS",
+                "code": 1100
+              }
+            ]
+          },
+          {
+            "type": "existential",
+            "courses": [
+              {
+                "prefix": "BIOL",
+                "code": 1010
+              }
+            ]
+          },
+          {
+            "type": "existential",
+            "courses": [
+              {
+                "prefix": "BIOL",
+                "code": 1015
+              },
+              {
+                "prefix": "BIOL",
+                "code": 1016
+              }
+            ]
+          },
+          {
+            "type": "existential",
+            "prefixes": ["ASTR", "BCBP", "BIOL", "CHEM", "ERTH", "ISCI", "PHYS"],
+            "notcourses": [
+              {
+                "prefix": "PHYS",
+                "code": 1100
+              },
+              {
+                "prefix": "BIOL",
+                "code": 1010
+              },
+              {
+                "prefix": "BIOL",
+                "code": 1015
+              },
+              {
+                "prefix": "BIOL",
+                "code": 1016
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Computer Science",
+        "credits": 24,
+        "rules": [
+          {
+            "type": "universal",
+            "prefixes": ["CSCI"]
+          },
+          {
+            "type": "existential",
+            "courses": [
+              {
+                "prefix": "CSCI",
+                "code": 1100
+              }
+            ]
+          },
+          {
+            "type": "existential",
+            "courses": [
+              {
+                "prefix": "CSCI",
+                "code": 1200
+              }
+            ]
+          },
+          {
+            "type": "existential",
+            "courses": [
+              {
+                "prefix": "CSCI",
+                "code": 2200
+              }
+            ]
+          },
+          {
+            "type": "existential",
+            "courses": [
+              {
+                "prefix": "CSCI",
+                "code": 2300
+              }
+            ]
+          },
+          {
+            "type": "existential",
+            "courses": [
+              {
+                "prefix": "CSCI",
+                "code": 2500
+              },
+              {
+                "prefix": "CSCI",
+                "code": 2800
+              }
+            ]
+          },
+          {
+            "type": "existential",
+            "courses": [
+              {
+                "prefix": "CSCI",
+                "code": 2600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Vision, Graphics, Robotics, and Visualization Concentration",
+        "credits": 28,
+        "rules": [
+          {
+            "type": "universal",
+            "prefixes": ["CSCI", "MATH", "MATP"]
+          },
+          {
+            "type": "existential",
+            "prefixes": ["MATH", "MATP"]
+          },
+          {
+            "type": "existential",
+            "count": 2,
+            "courses": [
+              {
+                "prefix": "CSCI",
+                "code": 4020
+              },
+              {
+                "prefix": "CSCI",
+                "code": 4210
+              },
+              {
+                "prefix": "CSCI",
+                "code": 4430
+              }
+            ]
+          },
+          {
+            "type": "existential",
+            "count": 2,
+            "courses": [
+              {
+                "prefix": "CSCI",
+                "code": 4270
+              },
+              {
+                "prefix": "CSCI",
+                "code": 4320
+              },
+              {
+                "prefix": "CSCI",
+                "code": 4480
+              },
+              {
+                "prefix": "CSCI",
+                "code": 4530
+              },
+              {
+                "prefix": "CSCI",
+                "code": 4550
+              },
+              {
+                "prefix": "CSCI",
+                "code": 4560
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "major": "Philosophy",
+    "credits": 128,
+    "ruleset": [
+      {
+        "category": "HASS Core",
+        "credits": 24,
+        "rules": [
+          {
+            "type": "universal",
+            "prefixes": [
+              "ARTS",
+              "COGS",
+              "COMM",
+              "ECON",
+              "GSAS",
+              "IHSS",
+              "INQR",
+              "LANG",
+              "LITR",
+              "PHIL",
+              "PSYC",
+              "STSO",
+              "WRIT"
+            ]
+          },
+          {
+            "type": "existential",
+            "attribute": "HASS Inquiry"
+          },
+          {
+            "type": "existential",
+            "attribute": "Communication Intensive"
+          },
+          {
+            "type": "existential",
+            "level": 4000
+          }
+        ]
+      },
+      {
+        "category": "Math/Science Core",
+        "credits": 24,
+        "rules": [
+          {
+            "type": "universal",
+            "prefixes": [
+              "ASTR",
+              "BCBP",
+              "BIOL",
+              "CHEM",
+              "ERTH",
+              "ISCI",
+              "MATH",
+              "MATP",
+              "PHYS"
+            ]
+          },
+          {
+            "type": "existential",
+            "courses": [
+              {
+                "prefix": "MATH",
+                "code": 1010
+              },
+              {
+                "prefix": "MATH",
+                "code": 1500
+              }
+            ]
+          },
+          {
+            "type": "existential",
+            "courses": [
+              {
+                "prefix": "MATH",
+                "code": 1020
+              },
+              {
+                "prefix": "MATH",
+                "code": 1520
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Philosophy",
+        "credits": 32,
+        "rules": [
+          {
+            "type": "universal",
+            "prefixes": ["INQR", "PHIL"]
+          },
+          {
+            "type": "existential",
+            "courses": [
+              {
+                "prefix": "PHIL",
+                "code": 1100
+              },
+              {
+                "prefix": "INQR",
+                "code": 1130
+              },
+              {
+                "prefix": "INQR",
+                "code": 1140
+              },
+              {
+                "prefix": "INQR",
+                "code": 1150
+              },
+              {
+                "prefix": "INQR",
+                "code": 1160
+              },
+              {
+                "prefix": "INQR",
+                "code": 1165
+              },
+              {
+                "prefix": "INQR",
+                "code": 1235
+              }
+            ]
+          },
+          {
+            "type": "existential",
+            "courses": [
+              {
+                "prefix": "PHIL",
+                "code": 2140
+              }
+            ]
+          },
+          {
+            "type": "existential",
+            "courses": [
+              {
+                "prefix": "PHIL",
+                "code": 2960
+              },
+              {
+                "prefix": "PHIL",
+                "code": 4240
+              },
+              {
+                "prefix": "PHIL",
+                "code": 4300
+              },
+              {
+                "prefix": "PHIL",
+                "code": 4500
+              }
+            ]
+          },
+          {
+            "type": "existential",
+            "courses": [
+              {
+                "prefix": "PHIL",
+                "code": 2400
+              },
+              {
+                "prefix": "PHIL",
+                "code": 4130
+              },
+              {
+                "prefix": "PHIL",
+                "code": 4310
+              }
+            ]
+          },
+          {
+            "type": "existential",
+            "courses": [
+              {
+                "prefix": "PHIL",
+                "code": 4990
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

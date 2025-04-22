@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  padding: 1em;
+  background-color: #241f31;
+}
+
+h3 {
+  margin-top: 0;
+  color: white;
+}
+
+#majorSelector {
+  margin-bottom: 1em;
+}
+
+.category-section {
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: #3d3846;
+  max-width: 100%;
+  overflow: visible;
+}
+
+.category-message {
+  color: #fff;
+  font-size: 0.9em;
+  overflow: auto;
+}
+
+.course-prefix,
+.course-code {
+  width: 50px;
+}
